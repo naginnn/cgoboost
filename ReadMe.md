@@ -26,5 +26,5 @@ osx: export DYLD_LIBRARY_PATH=/usr/local/lib:$DYLD_LIBRARY_PATH
 
 Step 4
 ```bash
-go get -u github.com/naginnn/cgoboost
+go get github.com/naginnn/catgoboost
 ```
