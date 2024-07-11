@@ -12,9 +12,9 @@ P.s Versions older than v1.1.1 are no longer supported by the yamake utility see
 
 Step 2
 ```bash
-Copy the files /usr/lib
-linux: /usr/lib
-osx: /usr/local/lib
+Copy the files
+linux: libcatboostmodel.so, libcatboostmodel.so.1 ->  /usr/lib
+osx: libcatboostmodel.dylib, libcatboostmodel.dylib.1 -> /usr/local/lib
 ```
 
 Step 3
@@ -29,6 +29,7 @@ Step 4
 go get github.com/naginnn/catgoboost
 go install github.com/naginnn/cgoboost
 ```
+p.s replace it with your version as needed c_api.h and model_calcer_wrapper.h 
 
 Step 5
 Usage
